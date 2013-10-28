@@ -1,0 +1,46 @@
+@import "_normalise";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #091868;
+    text-align: center;
+    height: 2000px;
+    padding-top: 500px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Bowlby One SC", Arial, sans-serif;
+    font-size: 8em;
+    color: #dadffc;
+    text-shadow: 0 2px 1px #000;
+}
+
+h1 {
+    color: #FFB000;
+    margin-top: 2em
+}
+
+h2 {
+    opacity: .6;
+    font-size: 10em;
+}
+
+h3 {
+    opacity: .4;
+    font-size: 12em;
+    float: right;
+}
+
+h4{
+    opacity: .2;
+    font-size: 14em;
+    float: left;
+}
